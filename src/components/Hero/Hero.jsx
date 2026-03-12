@@ -8,12 +8,10 @@ const Hero = () => {
         <img src={profile} />
       </div>
       <div className="profile-desc">
-        <div className="welcome-text">Welcome to my portfolio</div>
+        {/* <div className="welcome-text">Welcome to my portfolio</div> */}
         <div className="greeting-text">Hi, I'm Rahul Bingi</div>
 
-        <div className="title-text">
-          <div className="title-sub-text">I'm</div> A Full Stack Developer
-        </div>
+        <div className="title-text">A Full Stack Developer</div>
         <div className="desc-text">
           I build modern and user-friendly web applications.
         </div>

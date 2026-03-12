@@ -13,6 +13,9 @@ nav{
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+span {
+  color: #38bdf8;
+}
 /* Title / Logo */
 .nav-title{
   font-size:22px;
@@ -58,4 +61,15 @@ nav{
 
 .nav-menu a:hover{
   color:#38bdf8;
+}
+
+.nav-icon a{
+  font-size:20px;
+  color:white;
+  transition:0.3s;
+}
+
+.nav-icon a:hover{
+  color:#38bdf8;
+  transform:scale(1.2);
 }
