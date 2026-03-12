@@ -1,0 +1,92 @@
+/* ===== CONTACT SECTION ===== */
+
+.contact-section{
+  padding:100px 10%;
+  background:#020617;
+  color:white;
+}
+
+/* title */
+
+.contact-title{
+  font-size:38px;
+  text-align:center;
+  color:#38bdf8;
+  margin-bottom:10px;
+}
+
+.contact-subtitle{
+  text-align:center;
+  color:#94a3b8;
+  margin-bottom:60px;
+}
+
+/* layout */
+
+.contact-container{
+  display:flex;
+  gap:60px;
+  justify-content:center;
+  align-items:flex-start;
+  flex-wrap:wrap;
+}
+
+/* ===== FORM ===== */
+
+.contact-form{
+  flex:1;
+  min-width:300px;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+/* inputs */
+
+.contact-form input,
+.contact-form textarea{
+  padding:12px 14px;
+  border-radius:8px;
+  border:1px solid #1e293b;
+  background:#0f172a;
+  color:white;
+  font-size:14px;
+  transition:0.3s;
+}
+
+/* focus */
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+  outline:none;
+  border-color:#38bdf8;
+  box-shadow:0 0 0 1px #38bdf8;
+}
+
+/* button */
+
+.contact-form button{
+  margin-top:10px;
+  padding:12px;
+  border:none;
+  border-radius:8px;
+  background:#38bdf8;
+  color:white;
+  font-size:15px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.contact-form button:hover{
+  background:#0284c7;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width:900px){
+
+.contact-container{
+  flex-direction:column;
+}
+
+}
