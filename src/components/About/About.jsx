@@ -43,7 +43,7 @@ const About = () => {
             <span>CSS</span>
             <span>JavaScript</span>
             <span>React</span>
-            <span></span>
+            <span>Next</span>
             <span>Node.js</span>
             <span>Express</span>
             <span>MongoDB</span>
